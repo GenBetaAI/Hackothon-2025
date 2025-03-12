@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Achievements</h1>
+        <button id="shareBtn">Share</button>
+    </header>
+    
+    <div class="badge-container">
+        <div class="badge" data-unlocked="true">
+            <div class="badge-img"><img src="badges/img1.png" alt="Badge 1"></div>
+            <h3>Maths Master</h3>
+            <p>Unlocked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false" data-badge="MathsTopper">
+            <div class="badge-img"><img src="badges/Maths-Topper.webp" alt="Badge 2"></div>
+            <h3>Maths Topper</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false" data-badge="MathsTopper">
+            <div class="badge-img"><img src="badges/Brave Mind.webp" alt="Badge 3"></div>
+            <h3>Brave Mind</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false">
+            <div class="badge-img"><img src="badges/Most Activated Student.webp" alt="Badge 4"></div>
+            <h3>Active Learner</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false">
+            <div class="badge-img"><img src="badges/Science Topper.webp" alt="Badge 5"></div>
+            <h3>Science Master</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false">
+            <div class="badge-img"><img src="badges/English Topper.webp" alt="Badge 6"></div>
+            <h3>English Master</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false">
+            <div class="badge-img"><img src="badges/Science Topper.webp" alt="Badge 7"></div>
+            <h3>Social-Science Master</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false">
+            <div class="badge-img"><img src="badges/Code Master.webp" alt="Badge 8"></div>
+            <h3>Code Master</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false" data-badge="7DaysStreak">
+            <div class="badge-img"><img src="badges/7 Days Striker.webp" alt="Badge 9"></div>
+            <h3>7 Days Stike</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false" data-badge="14DaysStreak">
+            <div class="badge-img"><img src="badges/14 Days Striker.webp" alt="Badge 10"></div>
+            <h3>7 Days Stike</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false" data-badge="21DaysStreak">
+            <div class="badge-img"><img src="badges/21 Days Striker.webp" alt="Badge 11"></div>
+            <h3>7 Days Stike</h3>
+            <p>Locked</p>
+        </div>
+        <div class="badge locked" data-unlocked="false" data-badge="1MonthStreak">
+            <div class="badge-img"><img src="badges/1 Month Striker.webp" alt="Badge 12"></div>
+            <h3>7 Days Stike</h3>
+            <p>Locked</p>
+        </div>
+    </div>
+    
+    <audio id="unlockSound" src="unlock.mp3"></audio>
+    
+    <script>
+        document.getElementById("shareBtn").addEventListener("click", function() {
+            alert("Share functionality coming soon!");
+        });
+    </script>
+</body>
+</html>
